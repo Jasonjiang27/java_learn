@@ -1,6 +1,5 @@
-/*
-学生类
-*/
+// 学生类
+
 public class Student {
     public String id;
     public String name;
@@ -8,10 +7,12 @@ public class Student {
         this.id = id;
         this.name = name;
     }
-    @Override
-    public String toString(){
-        return "Student{"+
-            "id='"+id + '\''+", name='"+name+'\''+}';
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id +'\'' +
+                ", name='" + name+'\''+
+                '}';
     }
 }
